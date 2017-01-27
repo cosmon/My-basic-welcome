@@ -1,7 +1,7 @@
 Afternoon.
 * greeting
 
-< Hello world!
+< Hello CO!
 * welcome
 
 < I don't know much yet, but if you need some pointers on where to get started you should check out the docs -
