@@ -4,6 +4,8 @@ exports.handle = (client) => {
   // Create steps
   const sayHello = client.createStep({
     satisfied() {
+            console.log('sayHello: Satisfied() called..  convo state = ' + client.getConversationState().helloSent);
+
       return Boolean(client.getConversationState().helloSent)
     },
 
